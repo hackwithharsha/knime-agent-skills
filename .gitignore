@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.pdf
+!dist/*.zip
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
