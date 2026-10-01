@@ -1,8 +1,6 @@
 # KNIME Agent Skills
 
-Ask Claude what a KNIME workflow does, and get a proper document back.
-
-Attach a `.knwf` export to a Claude conversation and this skill reads the workflow, works sout what it reads, what it writes and what happens in between, and hands you a formatted PDF.
+Two skills for working with KNIME workflows in Claude: one that documents a workflow as a PDF, and one that traces how a specific column was derived.
 
 > [!WARNING]
 > **Early development.** The skill is in alpha. It works on most workflows, but some nodes are still unrecognized and some edge cases aren't handled yet. If you find a workflow that doesn't work, please open PR.
@@ -66,3 +64,4 @@ Every document is marked as `AI-generated`. Read it before you circulate it.
 | Skill | What it does | Version |
 | ----- | ------------ | ------- |
 | [knime-doc-generator](skills/knime-doc-generator/SKILL.md) | Documents a `.knwf` workflow as a five-section PDF | 0.2.0 |
+| [knime-column-lineage](skills/knime-column-lineage/SKILL.md) | Traces how a column was derived — plain-language explanation + SVG diagram | 0.1.0 |
